@@ -3,7 +3,7 @@
     --sarala: 'Sarala', sans-serif;
     --righteous: 'Righteous', cursive;
     /* Cores */
-    --background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    --background: linear-gradient(68.15deg,#000080 16.62%, #00BFFF 85.61%);
     --cor-primaria:#FFF2E7;
     --cor-secundaria:#ECD6C4;
 
@@ -31,6 +31,7 @@ body {
 
 .cabecalho-imagem {
     height: 72px;
+    border-radius: 75%;
 }
 
 .cabecalho-menu {
@@ -102,7 +103,8 @@ body {
 }
 
 .conteudo-principal-imagem{
-    height: 430px;
+    height: 380px;
+    margin-top: 50px;
 }
 
 .conteudo-secundario {
@@ -133,10 +135,34 @@ body {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.rodape-imagem {
-    height: 48px;
-    display: block;
-    margin: 0 auto;
+.letras {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.A {
+    color:darkblue;
+}
+
+.R {
+    color: white;
+}
+
+.T {
+    color: #00BFFF;
+}
+
+.H {
+    color: #176883;
+}
+
+.U {
+    color: aquamarine;
 }
